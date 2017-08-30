@@ -1,0 +1,77 @@
+.trains.active.content{
+	font-family: 'Open Sans', sans-serif;
+	width: 850px;
+	margin: auto;
+}
+
+.trains.inactive.content{
+	font-family: 'Open Sans', sans-serif;
+	width: 550px;
+	margin: auto;
+	transition: all 1s;
+	position: relative;
+	top: 0px;
+}
+
+#Trains.inactive:hover .trains.inactive.content{
+	top: 20px;
+    transform: scale(1.18, 1.22);
+}
+
+.trains.active.title{
+	text-align: center;
+}
+
+.trains.inactive.title{
+	text-align: center;
+	color: #e8e8e8;
+	font-size: 18px;
+}
+
+.city.trains.active{
+	font-size: 12px;
+}
+
+.city.trains.inactive{
+	font-size: 9px;
+}
+
+.cityline.trains.active{
+	stroke: #111111;
+	fill: transparent;
+}
+
+.cityline.trains.inactive{
+	stroke: #111111;
+	fill: transparent;
+}
+
+.timelabel.trains.active{
+	font-size: 10px;
+}
+
+.timelabel.trains.inactive{
+	font-size: 7px;
+}
+
+.tooltip.trains.active{
+	z-index: 5;
+	background: #222222;
+	position: absolute;
+	font-family: "Open Sans", sans-serif;
+	color: #dddddd;
+	font-size: 9px;
+}
+
+.tooltip.trains.active p{
+	padding-left: 10px;
+	padding-right: 5px;
+	margin: 0;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.placename.trains.active{
+	font-size: 12px;
+	color: white;
+}
